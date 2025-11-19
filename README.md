@@ -20,13 +20,10 @@
 3. **Run the Application**: Use the IDE's run feature to launch the application on your desktop.
 
    > [!WARNING] 
-   > 
    > Make sure to select a build target. For desktop applications, you can choose from Windows, macOS, or Linux. 
 
    > [!TIP] 
-   > 
    > 3.1.1 **In Visual Studio Code**, you can select the target from the bottom-right corner of the window.
-   >
    > 3.1.2 **In Android Studio**, you can select the target from the device dropdown in the toolbar. 
 
 4. **Build for Release**: Follow Flutter's official documentation to build the application for your target desktop platform.
