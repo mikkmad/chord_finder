@@ -10,14 +10,17 @@
 - **Chord Progressions**: Access predefined chord progressions for each chord (e.g., I-VI-IV, I-IV-ii-VI).
 
 ## How to Build & Run the Application
-1. **Clone the Repository**: 
-    ```sh 
-    git clone [https://github.com/mikkmad/Chord_Finder.git](https://github.com/mikkmad/Chord_Finder.git) 
-    ```
 
-2. **Open in your IDE**: Open the project in your preferred flutter-compatible IDE (e.g., Visual Studio Code, Android Studio).
+### 1. **Clone the Repository**
+```sh 
+git clone [https://github.com/mikkmad/Chord_Finder.git](https://github.com/mikkmad/Chord_Finder.git) 
+```
 
-3. **Run the Application**: Use the IDE's run feature to launch the application on your desktop. **Make sure to select a build target**.
+### 2. **Open in your IDE**
+Open the project in your preferred flutter-compatible IDE (e.g., Visual Studio Code, Android Studio).
+
+### 3. **Run the Application**
+Use the IDE's run feature to launch the application on your desktop. **Make sure to select a build target**.
 
 > [!WARNING] 
 > For MacOS or iOS development, ensure you are on a Mac with Xcode installed. 
@@ -27,7 +30,8 @@
 > 
 > **In Android Studio**, you can select the target from the device dropdown in the toolbar. 
 
-4. **Build for Release**: Follow Flutter's official documentation to build the application for your target desktop platform:
+### 4. **Build for Release**
+Follow Flutter's official documentation to build the application for your target desktop platform:
 
 | Platform | Documentation Link |
 | ---: | :---: |
@@ -38,17 +42,17 @@
 | **Android** | [Android Deployment](https://docs.flutter.dev/deployment/android) |
 | **Web** | [Web Deployment](https://docs.flutter.dev/deployment/web) |
 
-   For example:
-   ```sh
-   flutter build macos    # For macOS
-   flutter build ios      # For iOS
-   flutter build windows  # For Windows
-   flutter build linux    # For Linux
-   flutter build apk      # For Android
-   flutter build web      # For Web - no specific build modes available
-   ```
-   To see all supported build targets, run:
-   ```sh
-   flutter help build
-   ```
-   This command lists `Available subcommands`, which indicate the supported platforms. For more details on build modes, refer to: https://docs.flutter.dev/testing/build-modes.
+For example:
+```sh
+flutter build macos    # For macOS
+flutter build ios      # For iOS
+flutter build windows  # For Windows
+flutter build linux    # For Linux
+flutter build apk      # For Android
+flutter build web      # For Web - no specific build modes available
+```
+To see all supported build targets, run:
+```sh
+flutter help build
+```
+This command lists `Available subcommands`, which indicate the supported platforms. For more details on build modes, refer to: https://docs.flutter.dev/testing/build-modes.
