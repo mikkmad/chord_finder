@@ -28,7 +28,7 @@
 > **In Android Studio**, you can select the target from the device dropdown in the toolbar. 
 
 4. **Build for Release**: Follow Flutter's official documentation to build the application for your target desktop platform:
-|| Platform | Documentation Link                                               |
+| Platform | Documentation Link                                                |
 |:--------:|:------------------------------------------------------------------|
 | MacOS    | [MacOS Deployment](https://docs.flutter.dev/deployment/macos)     |
 | iOS      | [iOS Deployment](https://docs.flutter.dev/deployment/ios)         |
