@@ -40,12 +40,12 @@
 
    For example:
    ```sh
-   flutter build windows --<release | debug | profile>  # For Windows
-   flutter build macos --<release | debug | profile>    # For macOS
-   flutter build linux --<release | debug | profile>    # For Linux
-   flutter build apk --<release | debug | profile>      # For Android
-   flutter build ios --<release | debug | profile>      # For iOS
-   flutter build web                                    # For Web - no specific build modes available
+   flutter build windows --<profile>  # For Windows (release | debug | profile)
+   flutter build macos --<profile>    # For macOS (release | debug | profile)
+   flutter build linux --<profile>    # For Linux (release | debug | profile)
+   flutter build apk --<profile>      # For Android (release | debug | profile)
+   flutter build ios --<profile>      # For iOS (release | debug | profile)
+   flutter build web                  # For Web - no specific build modes available
    ```
    To see all supported build targets, run:
    ```sh
