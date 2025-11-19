@@ -38,7 +38,7 @@
 | **Android** | [Android Deployment](https://docs.flutter.dev/deployment/android) |
 | **Web** | [Web Deployment](https://docs.flutter.dev/deployment/web) |
 
-   For example, to build for Windows, macOS, or Linux, use the following commands:
+   For example:
    ```sh
    flutter build windows --(release | debug | profile)  # For Windows
    flutter build macos --(release | debug | profile)    # For macOS
