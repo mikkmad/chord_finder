@@ -17,15 +17,15 @@
 
 2. **Open in your IDE**: Open the project in your preferred flutter-compatible IDE (e.g., Visual Studio Code, Android Studio).
 
-3. **Run the Application**: Use the IDE's run feature to launch the application on your desktop.
+3. **Run the Application**: Use the IDE's run feature to launch the application on your desktop. **Make sure to select a build target**.
 
 > [!WARNING] 
-> Make sure to select a build target. For desktop applications, you can choose from Windows, macOS, or Linux. 
+> For MacOS or iOS development, ensure you are on a Mac with Xcode installed. 
 
 > [!TIP] 
-> 3.1.1 **In Visual Studio Code**, you can select the target from the bottom-right corner of the window.
->
-> 3.1.2 **In Android Studio**, you can select the target from the device dropdown in the toolbar. 
+> **In Visual Studio Code**, you can select the target from the bottom-right corner of the window.
+> 
+> **In Android Studio**, you can select the target from the device dropdown in the toolbar. 
 
 4. **Build for Release**: Follow Flutter's official documentation to build the application for your target desktop platform.
    ```sh
