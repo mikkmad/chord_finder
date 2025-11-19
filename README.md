@@ -24,6 +24,7 @@
 
 > [!TIP] 
 > 3.1.1 **In Visual Studio Code**, you can select the target from the bottom-right corner of the window.
+>
 > 3.1.2 **In Android Studio**, you can select the target from the device dropdown in the toolbar. 
 
 4. **Build for Release**: Follow Flutter's official documentation to build the application for your target desktop platform.
