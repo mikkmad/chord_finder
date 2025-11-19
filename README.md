@@ -12,7 +12,7 @@
 ## How to Build & Run the Application
 1. **Clone the Repository**: 
     ```sh 
-    git clone https://github.com/mikkmad/Chord_Finder.git 
+    git clone [https://github.com/mikkmad/Chord_Finder.git](https://github.com/mikkmad/Chord_Finder.git) 
     ```
 
 2. **Open in your IDE**: Open the project in your preferred flutter-compatible IDE (e.g., Visual Studio Code, Android Studio).
@@ -28,14 +28,15 @@
 > **In Android Studio**, you can select the target from the device dropdown in the toolbar. 
 
 4. **Build for Release**: Follow Flutter's official documentation to build the application for your target desktop platform:
-| Platform | Documentation Link                                                |
-|:--------:|:------------------------------------------------------------------|
-| MacOS    | [MacOS Deployment](https://docs.flutter.dev/deployment/macos)     |
-| iOS      | [iOS Deployment](https://docs.flutter.dev/deployment/ios)         |
-| Windows  | [Windows Deployment](https://docs.flutter.dev/deployment/windows) |
-| Linux    | [Linux Deployment](https://docs.flutter.dev/deployment/linux)     |
-| Android  | [Android Deployment](https://docs.flutter.dev/deployment/android) |
-| Web      | [Web Deployment](https://docs.flutter.dev/deployment/web)         |
+
+| Platform | Documentation Link |
+| ---: | :---: |
+| **MacOS** | [MacOS Deployment](https://docs.flutter.dev/deployment/macos) |
+| **iOS** | [iOS Deployment](https://docs.flutter.dev/deployment/ios) |
+| **Windows** | [Windows Deployment](https://docs.flutter.dev/deployment/windows) |
+| **Linux** | [Linux Deployment](https://docs.flutter.dev/deployment/linux) |
+| **Android** | [Android Deployment](https://docs.flutter.dev/deployment/android) |
+| **Web** | [Web Deployment](https://docs.flutter.dev/deployment/web) |
 
    For example, to build for Windows, macOS, or Linux, use the following commands:
    ```sh
