@@ -51,7 +51,7 @@ flutter build linux    # For Linux
 flutter build apk      # For Android
 flutter build web      # For Web - no specific build modes available
 ```
-To see all supported build targets, run:
+To see all supported build targets on your system, run:
 ```sh
 flutter help build
 ```
