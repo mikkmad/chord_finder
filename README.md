@@ -40,9 +40,12 @@
 
    For example, to build for Windows, macOS, or Linux, use the following commands:
    ```sh
-   flutter build windows   # For Windows
-   flutter build macos     # For macOS
-   flutter build linux     # For Linux
+   flutter build windows --(release | debug | profile)  # For Windows
+   flutter build macos --(release | debug | profile)    # For macOS
+   flutter build linux --(release | debug | profile)    # For Linux
+   flutter build apk --(release | debug | profile)      # For Android
+   flutter build ios --(release | debug | profile)      # For iOS
+   flutter build web                                    # For Web - no specific build modes available
    ```
    To see all supported build targets, run:
    ```sh
