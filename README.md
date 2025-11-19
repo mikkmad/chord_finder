@@ -27,14 +27,24 @@
 > 
 > **In Android Studio**, you can select the target from the device dropdown in the toolbar. 
 
-4. **Build for Release**: Follow Flutter's official documentation to build the application for your target desktop platform.
+4. **Build for Release**: Follow Flutter's official documentation to build the application for your target desktop platform:
+|| Platform | Documentation Link                                               |
+|:--------:|:------------------------------------------------------------------|
+| MacOS    | [MacOS Deployment](https://docs.flutter.dev/deployment/macos)     |
+| iOS      | [iOS Deployment](https://docs.flutter.dev/deployment/ios)         |
+| Windows  | [Windows Deployment](https://docs.flutter.dev/deployment/windows) |
+| Linux    | [Linux Deployment](https://docs.flutter.dev/deployment/linux)     |
+| Android  | [Android Deployment](https://docs.flutter.dev/deployment/android) |
+| Web      | [Web Deployment](https://docs.flutter.dev/deployment/web)         |
+
+   For example, to build for Windows, macOS, or Linux, use the following commands:
    ```sh
    flutter build windows   # For Windows
    flutter build macos     # For macOS
    flutter build linux     # For Linux
    ```
-   For a list of supported targets, use:
+   To see all supported build targets, run:
    ```sh
    flutter help build
    ```
-   It contains information about `Available subcommands`, which contains the supported platforms. If in doubt, read more here: https://docs.flutter.dev/testing/build-modes.
+   This command lists `Available subcommands`, which indicate the supported platforms. For more details on build modes, refer to: https://docs.flutter.dev/testing/build-modes.
