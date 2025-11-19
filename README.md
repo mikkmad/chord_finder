@@ -34,7 +34,7 @@ Use the IDE's run feature to launch the application on your desktop. **Make sure
 Follow Flutter's official documentation to build the application for your target desktop platform:
 
 | Platform | Documentation Link |
-| ---: | :---: |
+| ---: | :--- |
 | **MacOS** | https://docs.flutter.dev/deployment/macos |
 | **iOS** | https://docs.flutter.dev/deployment/ios |
 | **Windows** | https://docs.flutter.dev/deployment/windows |
