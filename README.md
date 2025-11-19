@@ -35,12 +35,12 @@ Follow Flutter's official documentation to build the application for your target
 
 | Platform | Documentation Link |
 | ---: | :---: |
-| **MacOS** | [MacOS Deployment](https://docs.flutter.dev/deployment/macos) |
-| **iOS** | [iOS Deployment](https://docs.flutter.dev/deployment/ios) |
-| **Windows** | [Windows Deployment](https://docs.flutter.dev/deployment/windows) |
-| **Linux** | [Linux Deployment](https://docs.flutter.dev/deployment/linux) |
-| **Android** | [Android Deployment](https://docs.flutter.dev/deployment/android) |
-| **Web** | [Web Deployment](https://docs.flutter.dev/deployment/web) |
+| **MacOS** | https://docs.flutter.dev/deployment/macos |
+| **iOS** | https://docs.flutter.dev/deployment/ios |
+| **Windows** | https://docs.flutter.dev/deployment/windows |
+| **Linux** | https://docs.flutter.dev/deployment/linux |
+| **Android** | https://docs.flutter.dev/deployment/android |
+| **Web** | https://docs.flutter.dev/deployment/web |
 
 For example:
 ```sh
