@@ -55,4 +55,4 @@ To see all supported build targets on your system, run:
 ```sh
 flutter help build
 ```
-This command lists `Available subcommands`, which indicate the supported platforms. For more details on build modes, refer to: https://docs.flutter.dev/testing/build-modes.
+Search for `Available subcommands`, which indicate the supported platforms. For more details on build modes, refer to: https://docs.flutter.dev/testing/build-modes.
