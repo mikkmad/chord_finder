@@ -9,14 +9,34 @@
 - **Scales and Patterns**: View various scales, their patterns, and individual blocks (all, multiple, or single blocks).
 - **Chord Progressions**: Access predefined chord progressions for each chord (e.g., I-VI-IV, I-IV-ii-VI).
 
-## Installation
+## How to Build & Run the Application
 1. **Clone the Repository**: 
     ```sh 
     git clone https://github.com/mikkmad/Chord_Finder.git 
     ```
-2. **Ensure .NET 9.0 (or any subversion of 9.x) is installed**:
-   - You can download and install .NET 9.0 from the [official .NET website](https://dotnet.microsoft.com/en-us/download). 
-3. **Open the Project in Your Preferred IDE**: 
-   - Open the solution file `Chord Finder.sln` in your preferred IDE (e.g., Rider, Visual Studio). 
-4. **Build and Run the Program**: 
-   - Build the solution and run the project.
+
+2. **Open in your IDE**: Open the project in your preferred flutter-compatible IDE (e.g., Visual Studio Code, Android Studio).
+
+3. **Run the Application**: Use the IDE's run feature to launch the application on your desktop.
+
+   > [!WARNING] 
+   > 
+   > Make sure to select a build target. For desktop applications, you can choose from Windows, macOS, or Linux. 
+
+   > [!TIP] 
+   > 
+   > 3.1.1 **In Visual Studio Code**, you can select the target from the bottom-right corner of the window.
+   >
+   > 3.1.2 **In Android Studio**, you can select the target from the device dropdown in the toolbar. 
+
+4. **Build for Release**: Follow Flutter's official documentation to build the application for your target desktop platform.
+   ```sh
+   flutter build windows   # For Windows
+   flutter build macos     # For macOS
+   flutter build linux     # For Linux
+   ```
+   For a list of supported targets, use:
+   ```sh
+   flutter help build
+   ```
+   It contains information about `Available subcommands`, which contains the supported platforms. If in doubt, read more here: https://docs.flutter.dev/testing/build-modes.
