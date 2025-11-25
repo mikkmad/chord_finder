@@ -1,9 +1,13 @@
+Version 0.0.0.5
+
+- Initial commit of Flutter implementation of the project.
+
+----------------------------
 Version 0.0.0.4
 
 - Removed C# implementation of the project to the C#_version branch, to focus on a flutter implementation.
 
 ----------------------------
-
 Version 0.0.0.3
 
 - Moved changelog.txt from project folder to for easy access
