@@ -11,17 +11,6 @@
 
 ## How to Build & Run the Application
 
-### 1. **Clone the Repository**
-```sh 
-git clone https://github.com/mikkmad/Chord_Finder.git 
-```
-
-### 2. **Open in your IDE**
-Open the project in your preferred flutter-compatible IDE (e.g., Visual Studio Code, Android Studio).
-
-### 3. **Run the Application**
-Use the IDE's run feature to launch the application on your desktop. **Make sure to select a build target**.
-
 > [!WARNING] 
 > For MacOS or iOS development, ensure you are on a Mac with Xcode installed. 
 
@@ -30,31 +19,24 @@ Use the IDE's run feature to launch the application on your desktop. **Make sure
 > 
 > **In Android Studio**, you can select the target from the device dropdown in the toolbar. 
 
-### 4. **Build for Release**
-Follow Flutter's official documentation to build the application for your target desktop platform:
 
-| Platform | Documentation Link |
-| ---: | :--- |
-| **MacOS** | https://docs.flutter.dev/deployment/macos |
-| **iOS** | https://docs.flutter.dev/deployment/ios |
-| **Windows** | https://docs.flutter.dev/deployment/windows |
-| **Linux** | https://docs.flutter.dev/deployment/linux |
-| **Android** | https://docs.flutter.dev/deployment/android |
-| **Web** | https://docs.flutter.dev/deployment/web |
+### Prerequisites
+- Flutter SDK installed (see: [Set up and test drive Flutter](https://docs.flutter.dev/get-started/quick))
+- Dart SDK (included with Flutter)
+- An IDE ([VS Code](https://code.visualstudio.com/), [Android Studio](https://developer.android.com/studio), or [IntelliJ](https://www.jetbrains.com/idea/))
 
-For example:
+### Running the Application
+
+1. Clone this repository
 ```sh
-flutter build macos    # For macOS - <debug | profile | release>
-flutter build ios      # For iOS - <debug | profile | release>
-flutter build windows  # For Windows - <debug | profile | release>
-flutter build linux    # For Linux - <debug | profile | release>
-flutter build apk      # For Android - <debug | profile | release>
-flutter build web      # For Web - no specific build modes available
+git clone https://github.com/mikkmad/chord_finder.git
 ```
-To learn more about build modes (debug, profile, release), refer to the official documentation: https://docs.flutter.dev/testing/build-modes.
+2. Navigate to the project directory
+3. Run `flutter pub get` to install dependencies
+4. Execute `flutter run` to launch the app
 
-To see all supported build targets on your system, run:
-```sh
-flutter help build
-```
-Search for `Available subcommands`, which indicate the supported platforms.
+## Resources
+
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Flutter Samples](https://docs.flutter.dev/cookbook)
+- [Dart Language Tour](https://dart.dev/guides/language/language-tour)
