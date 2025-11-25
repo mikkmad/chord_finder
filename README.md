@@ -52,6 +52,7 @@ flutter build apk      # For Android - <debug | profile | release>
 flutter build web      # For Web - no specific build modes available
 ```
 To learn more about build modes (debug, profile, release), refer to the official documentation: https://docs.flutter.dev/testing/build-modes.
+
 To see all supported build targets on your system, run:
 ```sh
 flutter help build
