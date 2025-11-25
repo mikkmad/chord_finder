@@ -13,7 +13,7 @@
 
 ### 1. **Clone the Repository**
 ```sh 
-git clone [https://github.com/mikkmad/Chord_Finder.git](https://github.com/mikkmad/Chord_Finder.git) 
+git clone https://github.com/mikkmad/Chord_Finder.git 
 ```
 
 ### 2. **Open in your IDE**
@@ -44,15 +44,16 @@ Follow Flutter's official documentation to build the application for your target
 
 For example:
 ```sh
-flutter build macos    # For macOS
-flutter build ios      # For iOS
-flutter build windows  # For Windows
-flutter build linux    # For Linux
-flutter build apk      # For Android
+flutter build macos    # For macOS - <debug | profile | release>
+flutter build ios      # For iOS - <debug | profile | release>
+flutter build windows  # For Windows - <debug | profile | release>
+flutter build linux    # For Linux - <debug | profile | release>
+flutter build apk      # For Android - <debug | profile | release>
 flutter build web      # For Web - no specific build modes available
 ```
+To learn more about build modes (debug, profile, release), refer to the official documentation: https://docs.flutter.dev/testing/build-modes.
 To see all supported build targets on your system, run:
 ```sh
 flutter help build
 ```
-Search for `Available subcommands`, which indicate the supported platforms. For more details on build modes, refer to: https://docs.flutter.dev/testing/build-modes.
+Search for `Available subcommands`, which indicate the supported platforms.
