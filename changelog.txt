@@ -1,3 +1,15 @@
+Version 0.0.0.6
+
+- Implemented a scale generator (data/models/scales.dart)
+- Implemented a chord generator (data/models/chords.dart)
+- Implemented views for the following:
+    - Scale Generator (ui/pages/scales_view.dart)
+    - Chord Generator (ui/pages/chords_view.dart)
+- Added a constants.dart and spacing.dart for UI styling constants (ui/constants)
+- Added a music_constants.dart (data/constants)
+- Added a Navigation Rail with functionality to easily add new navigation items (ui/widgets/navigation_rail.dart)
+
+----------------------------
 Version 0.0.0.5
 
 - Initial commit of Flutter implementation of the project.

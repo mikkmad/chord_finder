@@ -1,3 +1,4 @@
+import 'package:chord_finder/ui/widgets/navigation_rail.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,33 +11,45 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.blue)),
-      home: const MyHomePage(title: 'Chord Finder'),
+      home: const MyHomePage(),
       debugShowCheckedModeBanner: true,
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
+  const MyHomePage({super.key});
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  String _currentTitle = 'Scales';
+  IconData _currentIcon = Icons.queue_music;
+
+  void _updateTitle(
+    String newTitle,
+    IconData newIcon,
+    IconData selectedIcon,
+    bool disabled,
+  ) {
+    setState(() {
+      _currentTitle = newTitle;
+      _currentIcon = selectedIcon;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text(
-          widget.title,
-          style: Theme.of(context).textTheme.displayLarge,
-        ),
+      appBar: AppBar(
+        leading: Icon(_currentIcon),
+        title: Text(_currentTitle, style: const TextStyle(fontWeight: .bold)),
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
+      body: AppNavigationRail(onTitleChanged: _updateTitle),
     );
   }
 }
