@@ -1,0 +1,23 @@
+= Music Theory Research
+:toc:
+:author: Mikkel Helsted Madsen
+:reproducible:
+
+== A quick notice
+
+This paper functions as the grounds for the music theory research I've done to build this application.
+Most of the theory comes from two sources:
+
+- The YouTube Channel https://www.youtube.com/@BradHarrison[Brad Harrison Music], more specifically his playlist https://www.youtube.com/playlist?list=PLDaNGknQ_wTh3eXyjB0smdEYSvqa-wJ1_[Music Theory videos].
+It is a playlist covering a wide range of music theory concepts from note naming, rhythms and dynamics, to chords, scales and the Circle of Fifth, and beyond.
+
+- The website https://www.musictheoryacademy.com/[Music Theory Academy].
+It is a free online learning platform dedicated to teaching music theory; It offers structured lessons, articles, and exercises covering topics from reading sheet music and rhythm to chords, scales, and harmony.
+
+The structure of this paper does not follow the playlist 1-to-1, but has been restructured to provide a more compact, note-formed merged-version of it and the website, with topics not necessarily following the order of the playlist.
+
+If music theory knowledge has been gathered elsewhere, proper references will be put.
+
+See the link:links/links.adoc[links.adoc] file for more links.
+
+include::chapters/ch01.adoc[]
