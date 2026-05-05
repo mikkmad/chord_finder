@@ -1,22 +1,69 @@
-# Chord Finder
+# Description
 
-## Overview
-**Chord Finder** is a desktop application that brings a simplified, offline version of [all-guitar-chords.com](https://www.all-guitar-chords.com/) to your fingertips. With Chord Finder, users can easily explore guitar chords, scales, and chord progressions without needing an internet connection.
+This is a project that aims to clone and extend the functionality of https://www.all-guitar-chords.com/, such that it
+becomes available offline, with the extended functions:
 
-## Features
-- **Find All Chords**: Discover all guitar chords and their variations.
-- **Visualized Fretboard**: Identify chords by selecting notes on a virtual fretboard.
-- **Scales and Patterns**: View various scales, their patterns, and individual blocks (all, multiple, or single blocks).
-- **Chord Progressions**: Access predefined chord progressions for each chord (e.g., I-VI-IV, I-IV-ii-VI).
+- Reading input from MIDI-Keyboard to identify a chord.
+- Generate chord(s) and scale(s) from a root note, visualizing them on a virtual piano and/or virtual fretboard.
+- Converting a piano chord to a guitar chord and vice versa.
 
-## Installation
-1. **Clone the Repository**: 
-    ```sh 
-    git clone https://github.com/mikkmad/Chord_Finder.git 
-    ```
-2. **Ensure .NET 9.0 (or any subversion of 9.x) is installed**:
-   - You can download and install .NET 9.0 from the [official .NET website](https://dotnet.microsoft.com/en-us/download). 
-3. **Open the Project in Your Preferred IDE**: 
-   - Open the solution file `Chord Finder.sln` in your preferred IDE (e.g., Rider, Visual Studio). 
-4. **Build and Run the Program**: 
-   - Build the solution and run the project.
+AI-usage will be declared in the files, using a start-end template. Example:
+
+```kotlin
+// AI-START -- This is AI-generated code.
+... some code here
+// AI-END
+```
+
+# Project Type
+
+This is a [Compose Multiplatform](https://kotlinlang.org/compose-multiplatform/) project targeting Web and Desktop (
+JVM).
+
+## Build and Run Desktop (JVM) Application
+
+To build and run the development version of the desktop app, use the run configuration from the run widget
+in your IDE’s toolbar or run it directly from the terminal:
+
+- on macOS/Linux
+  ```shell
+  ./gradlew :composeApp:run
+  ```
+- on Windows
+  ```shell
+  .\gradlew.bat :composeApp:run
+  ```
+
+## Build and Run Web Application
+
+To build and run the development version of the web app, use the run configuration from the run widget
+in your IDE's toolbar or run it directly from the terminal:
+
+- for the Wasm target (faster, modern browsers):
+    - on macOS/Linux
+      ```shell
+      ./gradlew :composeApp:wasmJsBrowserDevelopmentRun
+      ```
+    - on Windows
+      ```shell
+      .\gradlew.bat :composeApp:wasmJsBrowserDevelopmentRun
+      ```
+- for the JS target (slower, supports older browsers):
+    - on macOS/Linux
+      ```shell
+      ./gradlew :composeApp:jsBrowserDevelopmentRun
+      ```
+    - on Windows
+      ```shell
+      .\gradlew.bat :composeApp:jsBrowserDevelopmentRun
+      ```
+
+---
+
+Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html),
+[Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform/#compose-multiplatform),
+[Kotlin/Wasm](https://kotl.in/wasm/)…
+
+We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public Slack
+channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web).
+If you face any issues, please report them on [YouTrack](https://youtrack.jetbrains.com/newIssue?project=CMP).
