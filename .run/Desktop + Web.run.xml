@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="true" name="Desktop + Web" type="CompoundRunConfigurationType">
+    <toRun name="composeApp [jvm, hot] 🔥" type="GradleRunConfiguration" />
+    <toRun name="composeApp [wasmJs]" type="GradleRunConfiguration" />
+    <method v="2" />
+  </configuration>
+</component>
