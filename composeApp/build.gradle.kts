@@ -48,10 +48,22 @@ compose.desktop {
     application {
         mainClass = "org.mikkmad.chordfinder.MainKt"
 
+        /*
+        Reminder for correct versioning:
+            Versioning used: MAJOR.MINOR.PATCH
+            - PATCH: Small fixes, cleanup, tiny improvements
+            - MINOR: New feature or meaningful milestone
+            - MAJOR: Initial full release, then breaking changes
+
+         Utils:
+            - Versioning: https://semver.org/
+            - Changelogs: https://keepachangelog.com/en/1.1.0/
+         */
+
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "org.mikkmad.chordfinder"
-            packageVersion = "1.0.0"
+            packageVersion = "1.0.0" // TODO: update this before committing
         }
     }
 }
