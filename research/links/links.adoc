@@ -1,6 +1,0 @@
-== A list of links to music-theory related videos and websites.
-
-- https://www.youtube.com/watch?v=rgaTLrZGlk0[Andrew Huang "Learn music theory in half an hour" (YouTube)].
-- https://www.musictheoryacademy.com/[Music Theory Academy - Website]
-- https://www.youtube.com/@MusicTheoryAcademy/playlists[Music Theory Academy - YouTube Playlists].
-- https://www.youtube.com/playlist?list=PLDaNGknQ_wTh3eXyjB0smdEYSvqa-wJ1_[Brad Harrison - Music Theory videos (YouTube)]
