@@ -1,22 +1,31 @@
-# Chord Finder
+This is a Kotlin Multiplatform project targeting Android, Web, Desktop (JVM).
 
-## Overview
-**Chord Finder** is a desktop application that brings a simplified, offline version of [all-guitar-chords.com](https://www.all-guitar-chords.com/) to your fingertips. With Chord Finder, users can easily explore guitar chords, scales, and chord progressions without needing an internet connection.
+* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
+  It contains several subfolders:
+  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
+  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
+    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
+    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
+    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
+    folder is the appropriate location.
 
-## Features
-- **Find All Chords**: Discover all guitar chords and their variations.
-- **Visualized Fretboard**: Identify chords by selecting notes on a virtual fretboard.
-- **Scales and Patterns**: View various scales, their patterns, and individual blocks (all, multiple, or single blocks).
-- **Chord Progressions**: Access predefined chord progressions for each chord (e.g., I-VI-IV, I-IV-ii-VI).
+### Running the apps
 
-## Installation
-1. **Clone the Repository**: 
-    ```sh 
-    git clone https://github.com/mikkmad/Chord_Finder.git 
-    ```
-2. **Ensure .NET 9.0 (or any subversion of 9.x) is installed**:
-   - You can download and install .NET 9.0 from the [official .NET website](https://dotnet.microsoft.com/en-us/download). 
-3. **Open the Project in Your Preferred IDE**: 
-   - Open the solution file `Chord Finder.sln` in your preferred IDE (e.g., Rider, Visual Studio). 
-4. **Build and Run the Program**: 
-   - Build the solution and run the project.
+Use the run configurations provided by the run widget in your IDE's toolbar. You can also use these commands and options:
+
+- Android app: `./gradlew :androidApp:assembleDebug`
+- Desktop app:
+  - Hot reload: `./gradlew :desktopApp:hotRun --auto`
+  - Standard run: `./gradlew :desktopApp:run`
+- Web app:
+  - Wasm target (faster, modern browsers): `./gradlew :webApp:wasmJsBrowserDevelopmentRun`
+  - JS target (slower, supports older browsers): `./gradlew :webApp:jsBrowserDevelopmentRun`
+
+---
+
+Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html),
+[Compose Multiplatform](https://kotlinlang.org/compose-multiplatform/),
+[Kotlin/Wasm](https://kotl.in/wasm/)…
+
+We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public Slack channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web).
+If you face any issues, please report them on [YouTrack](https://youtrack.jetbrains.com/newIssue?project=CMP).
